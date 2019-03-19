@@ -313,15 +313,16 @@
 		E64285B1223F317100DC8662 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C59D7E7ZN3;
+				DEVELOPMENT_TEAM = 5R2G29TAN9;
 				INFOPLIST_FILE = "$(SRCROOT)/NumberSliding/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xueyun.NumberSliding;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueyun.number-sliding";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,15 +332,16 @@
 		E64285B2223F317100DC8662 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C59D7E7ZN3;
+				DEVELOPMENT_TEAM = 5R2G29TAN9;
 				INFOPLIST_FILE = "$(SRCROOT)/NumberSliding/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xueyun.NumberSliding;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueyun.number-sliding";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
