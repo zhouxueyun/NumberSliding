@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		E64285A2223F316E00DC8662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64285A1223F316E00DC8662 /* AppDelegate.swift */; };
-		E64285A4223F316E00DC8662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64285A3223F316E00DC8662 /* ViewController.swift */; };
-		E64285A7223F316E00DC8662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64285A5223F316E00DC8662 /* Main.storyboard */; };
 		E64285A9223F317100DC8662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64285A8223F317100DC8662 /* Assets.xcassets */; };
 		E64285AC223F317100DC8662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64285AA223F317100DC8662 /* LaunchScreen.storyboard */; };
+		E64285B5223F31A700DC8662 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64285B3223F31A700DC8662 /* MainViewController.swift */; };
+		E64285B6223F31A700DC8662 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64285B4223F31A700DC8662 /* MainViewController.xib */; };
+		E64285BA223F3B7000DC8662 /* NumberSlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64285B8223F3B7000DC8662 /* NumberSlidingViewController.swift */; };
+		E64285BB223F3B7000DC8662 /* NumberSlidingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64285B9223F3B7000DC8662 /* NumberSlidingViewController.xib */; };
+		E64285BD223F4AB100DC8662 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64285BC223F4AB100DC8662 /* NumberPadView.swift */; };
+		E64285C0223F4ACA00DC8662 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64285BF223F4ACA00DC8662 /* NumberView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E642859E223F316E00DC8662 /* NumberSliding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberSliding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64285A1223F316E00DC8662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E64285A3223F316E00DC8662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E64285A6223F316E00DC8662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E64285A8223F317100DC8662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E64285AB223F317100DC8662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E64285AD223F317100DC8662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64285B3223F31A700DC8662 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E64285B4223F31A700DC8662 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E64285B8223F3B7000DC8662 /* NumberSlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSlidingViewController.swift; sourceTree = "<group>"; };
+		E64285B9223F3B7000DC8662 /* NumberSlidingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberSlidingViewController.xib; sourceTree = "<group>"; };
+		E64285BC223F4AB100DC8662 /* NumberPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
+		E64285BF223F4ACA00DC8662 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,42 @@
 		E64285A0223F316E00DC8662 /* NumberSliding */ = {
 			isa = PBXGroup;
 			children = (
+				E64285C1223F4AE700DC8662 /* Resource */,
+				E64285BE223F4AB700DC8662 /* View */,
+				E64285B7223F31B500DC8662 /* ViewController */,
 				E64285A1223F316E00DC8662 /* AppDelegate.swift */,
-				E64285A3223F316E00DC8662 /* ViewController.swift */,
-				E64285A5223F316E00DC8662 /* Main.storyboard */,
+			);
+			path = NumberSliding;
+			sourceTree = "<group>";
+		};
+		E64285B7223F31B500DC8662 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E64285B3223F31A700DC8662 /* MainViewController.swift */,
+				E64285B4223F31A700DC8662 /* MainViewController.xib */,
+				E64285B8223F3B7000DC8662 /* NumberSlidingViewController.swift */,
+				E64285B9223F3B7000DC8662 /* NumberSlidingViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E64285BE223F4AB700DC8662 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E64285BF223F4ACA00DC8662 /* NumberView.swift */,
+				E64285BC223F4AB100DC8662 /* NumberPadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E64285C1223F4AE700DC8662 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
 				E64285A8223F317100DC8662 /* Assets.xcassets */,
 				E64285AA223F317100DC8662 /* LaunchScreen.storyboard */,
 				E64285AD223F317100DC8662 /* Info.plist */,
 			);
-			path = NumberSliding;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +160,8 @@
 			files = (
 				E64285AC223F317100DC8662 /* LaunchScreen.storyboard in Resources */,
 				E64285A9223F317100DC8662 /* Assets.xcassets in Resources */,
-				E64285A7223F316E00DC8662 /* Main.storyboard in Resources */,
+				E64285BB223F3B7000DC8662 /* NumberSlidingViewController.xib in Resources */,
+				E64285B6223F31A700DC8662 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E64285A4223F316E00DC8662 /* ViewController.swift in Sources */,
+				E64285B5223F31A700DC8662 /* MainViewController.swift in Sources */,
+				E64285BA223F3B7000DC8662 /* NumberSlidingViewController.swift in Sources */,
 				E64285A2223F316E00DC8662 /* AppDelegate.swift in Sources */,
+				E64285C0223F4ACA00DC8662 /* NumberView.swift in Sources */,
+				E64285BD223F4AB100DC8662 /* NumberPadView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E64285A5223F316E00DC8662 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E64285A6223F316E00DC8662 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E64285AA223F317100DC8662 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C59D7E7ZN3;
-				INFOPLIST_FILE = NumberSliding/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NumberSliding/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C59D7E7ZN3;
-				INFOPLIST_FILE = NumberSliding/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NumberSliding/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
